@@ -1,0 +1,16 @@
+﻿.bitmoji {
+    border: 0;
+    width: 190px;
+    height: 190px;
+}
+.holaMundo {
+    font-size:xx-large;
+    font-weight:bold;
+}
+.temp {
+    clear: left;
+    float: left;
+    margin-top:1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}

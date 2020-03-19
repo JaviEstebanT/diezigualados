@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #F0F2E2;
+    font-size: large;
+    font-family: 'helvetica', 'aria', 'helvetica', 'sans-serif';
+}
+
+h1 {
+    display: grid;
+    grid-auto-columns: 320px;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.cabecera1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin:auto;
+}
+
+.cabecera2 {
+    grid-area: 1 / 2 / 2 / 3;
+    margin: auto;
+    background-color: black;
+}
+
+.cabecera3 {
+    grid-area: 1 / 3 / 2 / 4;
+    margin: auto;
+}
+
+nav {
+    clear: right;
+    float: right;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: large;
+}
+.pie {
+    position: relative;
+    margin-top: -50px;
+    width: 960px;
+    height: 40px;
+    padding: 5px 0px;
+    clear: both;
+    background: grey;
+    text-align: center;
+    color: black;
+}
