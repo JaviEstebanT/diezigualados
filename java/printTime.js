@@ -25,7 +25,7 @@ function printTime() {
         diaSem = "Domingo";
     }
   var dia = d.getDate();
-  var mes = d.getMonth();
+  var mes = d.getMonth() + 1;
   var ano = d.getFullYear();
   var hours = d.getHours();
   var mins = d.getMinutes();
